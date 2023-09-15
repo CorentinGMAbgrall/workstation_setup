@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
 
 # > Python 3.9
-apt update
-apt install -y python3
-apt install -y python3-pip
+sudo apt update
+sudo apt install -y python3
+sudo apt install -y python3-pip
 
 # Install ansible
-python3 -m pip install --user ansible
+sudo apt install ansible
 
 # Install and configure git repo
-apt install git
-cd /home/ubuntu
+sudo apt install git
 git clone https://github.com/CorentinGMAbgrall/workstation_setup.git
-chmod 0777 workstation_setup/
+chown -R ubuntu:ubuntu workstation_setup/
