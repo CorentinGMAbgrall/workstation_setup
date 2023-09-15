@@ -7,9 +7,9 @@ apt install -y python3
 apt install -y python3-pip
 
 # Install ansible
-apt install ansible
+apt install -y ansible
 
 # Install and configure git repo
-apt install git
+apt install -y git
 git clone https://github.com/CorentinGMAbgrall/workstation_setup.git
 chown -R ubuntu:ubuntu workstation_setup/
