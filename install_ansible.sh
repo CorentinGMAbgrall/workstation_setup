@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
+apt update
+
 # > Python 3.9
-sudo apt update
-sudo apt install -y python3
-sudo apt install -y python3-pip
+apt install -y python3
+apt install -y python3-pip
 
 # Install ansible
-sudo apt install ansible
+apt install ansible
 
 # Install and configure git repo
 apt install git
