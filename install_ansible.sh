@@ -16,4 +16,4 @@ git clone https://github.com/CorentinGMAbgrall/workstation_setup.git
 chown -R ubuntu:ubuntu workstation_setup/
 
 # Install terraform with ansible
-ansible-playbook install_terraform.yml
+ansible-playbook workstation_setup/install_terraform.yml
